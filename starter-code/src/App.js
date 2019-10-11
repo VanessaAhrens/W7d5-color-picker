@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import RGBColorPicker from './components/RGBColorPicker/RGBColorPicker';
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
 
         <h1>Greetings</h1>
         {/* TODO: Use the Greetings component */}
+        <RGBColorPicker />
       </div>
     );
   }
